@@ -8,6 +8,8 @@ namespace CaixaEletronico
 {
     class ContaCorrente : Conta
     {
+        public ContaCorrente(Cliente cliente) : base(cliente){ }
+
         public override void Deposita(double valor)
         {
             if (valor > 0)

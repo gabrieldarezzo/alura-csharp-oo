@@ -12,6 +12,10 @@ namespace CaixaEletronico
 {
     public partial class CaixaEletronico : Form
     {
+
+        Conta[] contas = new Conta[2];
+       
+
         public CaixaEletronico()
         {
             InitializeComponent();
@@ -20,14 +24,22 @@ namespace CaixaEletronico
         private void button1_Click(object sender, EventArgs e)
         {
             
+
+            /*
+            //for (int i = 0; i < contas.Length; i++) {
+            foreach (Conta conta in contas)
+            {
+                MessageBox.Show("O saldo da conta é: " + conta.Saldo);
+            }
+            */
+
+            /*
             Conta cp1 = new ContaPoupanca();
             Cliente jose = new Cliente("Jose", "06/10/1992");
             cp1.numero = 1;
 
             cp1.cliente = jose;
-            cp1.Deposita(100);
-
-            MessageBox.Show(cp1.Saldo.ToString());
+            cp1.Deposita(100);           
             
 
             Conta cc1 = new ContaCorrente();
@@ -43,7 +55,7 @@ namespace CaixaEletronico
 
 
             MessageBox.Show(totalizador.Total.ToString());
-
+            */
 
         }
 
@@ -54,17 +66,43 @@ namespace CaixaEletronico
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            /*
-            Conta contaJose = new Conta();
-            Cliente jose = new Cliente("Jose", "06/10/1992");
-            contaJose.numero = 1;
-
-            contaJose.cliente = jose;
-            contaJose.Deposita(2000.0);
             
+            contas[0] = new ContaPoupanca(new Cliente("Jose", "08/04/1989"));            
+            contas[0].numero = 2;            
+            contas[0].Deposita(300);
 
-            textoTitular.Text = contaJose.GetTitular();
-            */
+
+            contas[1] = new ContaCorrente(new Cliente("Gabriel", "06/10/1992"));            
+            contas[1].numero = 2;            
+            contas[1].Deposita(500);
+
+
+            for (int i = 0; i < contas.Length; i++) {
+                comboContas.Items.Add(contas[i].cliente.nome);
+            }
+               
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboContas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int indexSelecionado = comboContas.SelectedIndex;
+
+            Conta contaSelecionada = contas[indexSelecionado];
+
+            textoTitular.Text = contaSelecionada.GetTitular();
+            textoSaldo.Text = contaSelecionada.Saldo.ToString();
+
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

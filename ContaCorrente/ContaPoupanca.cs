@@ -8,6 +8,7 @@ namespace CaixaEletronico
 {
     class ContaPoupanca : Conta
     {
+        public ContaPoupanca(Cliente cliente) : base(cliente){}
 
         //Rendimento de 10%
         public override void Deposita(double valor)

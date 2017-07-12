@@ -10,12 +10,20 @@ namespace CaixaEletronico
     {
         public int numero;
         public double Saldo { get; protected set; }
-        public Cliente cliente;        
+        public Cliente cliente;
+
+
+        public Conta(Cliente cliente)
+        {
+            this.cliente = cliente;
+        }
 
         private void SetSaldo(double value)
         {
             Saldo = value;
         }
+
+        
 
         public void Saca(double valor)
         {
