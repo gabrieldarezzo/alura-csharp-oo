@@ -1,0 +1,10 @@
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\CaixaEletronico.csproj.ResolveComReference.cache
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.Properties.Resources.resources
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\CaixaEletronico.csproj.GenerateResource.Cache
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.exe
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\bin\Debug\ContaCorrente.exe.config
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\bin\Debug\ContaCorrente.exe
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\bin\Debug\ContaCorrente.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\CaixaEletronico.CaixaEletronico.resources

@@ -1,0 +1,11 @@
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\bin\Debug\ContaCorrente.exe.config
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\bin\Debug\ContaCorrente.exe
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\bin\Debug\ContaCorrente.pdb
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.csprojResolveAssemblyReference.cache
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.Form1.resources
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.Properties.Resources.resources
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.csproj.GenerateResource.Cache
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.exe
+c:\users\gabriel\documents\visual studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\Interop.NBioBSPCOMLib.dll
+C:\Users\Gabriel\Documents\Visual Studio 2017\Projects\ContaCorrente\ContaCorrente\obj\Debug\ContaCorrente.csproj.ResolveComReference.cache
